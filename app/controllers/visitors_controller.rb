@@ -11,8 +11,6 @@ class VisitorsController < ApplicationController
     # Render with specify alternative layout
     # render 'visitors/new', layout: 'special'
     
-    flash.now[:notice] = 'Welcome!'
-    flash.now[:alert] = 'My birthday is soon.'
   end
   
 end
