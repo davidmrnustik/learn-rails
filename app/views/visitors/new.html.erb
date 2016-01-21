@@ -11,6 +11,7 @@
 		<div class="form-centered">
 			<%= simple_form_for @visitor do |f| %>
 				<%= f.error_notification %>
+				<%= f.input :name, label: false, placeholder: 'Enter your name...' %>
 				<%= f.input :email, label: false, placeholder: 'Your email address...' %>
 				<br />
 				<%= f.button :submit, "Sign up for the newsletter", class: 'submit' %>
